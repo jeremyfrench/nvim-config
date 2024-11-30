@@ -4,7 +4,7 @@ return {
     lazy = false,
     keys = { { "<leader>gW", "<cmd>BlameToggle<cr>", desc = "Git Blame File" } },
     config = function()
-      require("blame").setup({})
+      require("blame").setup()
     end,
   },
 }
